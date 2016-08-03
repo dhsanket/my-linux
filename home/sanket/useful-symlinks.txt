@@ -1,0 +1,74 @@
+sanket@ubuntu1:~$ ls -la APPS/
+lrwxrwxrwx  1 root   root      8 Jul 22 13:11 bin -> /usr/bin
+sanket@ubuntu1:~$ ls -la BASHTOOLS/
+lrwxrwxrwx  1 root   root      4 Jul 22 13:27 bin -> /bin
+
+/home/sanket/BASHTOOLS/:
+/bin
+
+/home/sanket/SYSTEM-APPS/:
+/sbin
+
+/home/sanket/GAMES/:
+/usr/games
+
+Other useful dirs
+/usr/bin
+/usr/sbin
+/usr/local
+
+sanket@ubuntu1:/etc/cron.d$ crontab -e
+no crontab for sanket - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/ed
+  2. /bin/nano        <---- easiest
+  3. /usr/bin/emacs23
+  4. /usr/bin/vim.basic
+  5. /usr/bin/vim.gnome
+  6. /usr/bin/vim.tiny
+
+
+
+
+tab complete on ls ~ 
+~avahi/             ~debian-spamd/      ~gdm/               ~libuuid/           ~man/               ~proxy/             ~speech-dispatcher  ~usbmux
+~avahi-autoipd/     ~dirmngr/           ~gnats              ~libvirt-dnsmasq/   ~messagebus/        ~pulse              ~sshd/              ~uucp
+~backup/            ~dnsmasq/           ~hplip              ~libvirt-qemu/      ~mysql              ~redis/             ~storeapi           ~vboxadd
+~bin/               ~dovecot/           ~irc                ~lightdm/           ~news               ~root/              ~sync/              ~whoopsie
+~bind/              ~dovenull           ~kdm                ~list               ~nobody             ~rtkit/             ~sys/               ~www-data/
+~colord/            ~fnode              ~kernoops/          ~lp                 ~postfix/           ~saned              ~syslog             
+~daemon/            ~games/             ~landscape/         ~mail/              ~postgres/          ~sanket/            ~tomcat7/
+
+installed games list 
+cgames-2.2a  cgames-2.2a.tar.gz  emacs-games  FishLife  game-of-life  games  gnupong-0.14.tar.gz  makefiles  ztrack  ztrack-1.0.tar.gz
+
+adventure     cowthink        hack       pong2    sol          xmoct
+arithmetic    cribbage        hangman    ppt      teachgammon  xmpanex
+atc           dab             hunt       primes   tetris-bsd   xmpyraminx
+atomix        eboard          LS         pychess  trek         xmrubik
+backgammon    espdiff         mille      quarry   wargames     xmskewb
+battlestar    fortune         monop      quiz     worm         xmtriangles
+bcd           gnome-hearts    mori1      rain     worms        xnethack
+blackhole     gnome-mahjongg  mori2      random   wtf          xvier
+boggle        gnome-mines     morse      robots   wump         xvier_prog
+caesar        gnome-sudoku    nestopia   rot13    xmbarrel     xye
+canfield      gnugo           nethack    sail     xmcubes      yasiti
+cfscores      go-fish         number     sl       xmdino       zaz
+chromium-bsu  gomoku          phantasia  sl-h     xmhexagons
+countmail     grhino          pig        snake    xmmball
+cowsay        gtp-rhino       pom        snscore  xmmlink
+
+	home/sanket/APPS/
+	home/sanket/BASHTOOLS/
+	home/sanket/Desktop/
+	home/sanket/Documents/
+	home/sanket/Downloads/
+	home/sanket/GAMES/
+	home/sanket/SYSTEM-APPS/
+	home/sanket/VirtualBox VMs/
+	home/sanket/conky.desktop
+	home/sanket/scripts/
+	home/sanket/temp/
+
+

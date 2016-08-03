@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Emacs
+Exec=emacs
+Terminal=true
+Type=Application
+Name[en_GB]=emacs
