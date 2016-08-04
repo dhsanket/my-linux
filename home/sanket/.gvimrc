@@ -1,0 +1,1 @@
+/home/sanket/.vim/janus/vim/gvimrc
