@@ -1,3 +1,4 @@
+alias bash="bash --norc"
 alias fhere="find . -name "
 alias folders='find . -maxdepth 1 -type d -print0 | xargs -0 du -sk | sort -rn'
 alias s1="screen -dr chaos1"
