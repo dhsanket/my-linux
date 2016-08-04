@@ -9,10 +9,11 @@
 ~h
 # Command Line History (newest to oldest):
 :q
+:Q
+:TlistToggle
 :q!
 :help quickref
 :help
-:Q
 
 # Search String History (newest to oldest):
 
@@ -25,18 +26,21 @@
 # Registers:
 
 # File marks:
-'0  4  20  /etc/resolv.conf
-'1  1  0  /tmp/waldemar_rsa
-'2  1  0  ~/Documents/repos/aws-build-scripts/ubuntu-14-04/www/storeapi/storeapi.sh
-'3  25  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/js/functionHelpers.js
-'4  19  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/js/moment.js
-'5  35  70  ~/Documents/repos/rx-monitoring-dashboard-Jessie-home-folder/README.md
-'6  55  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/services.php
-'7  97  25  ~/Documents/repos/rx-monitoring-dashboard-var-www/overview.php
-'8  41  29  ~/Documents/repos/rx-monitoring-dashboard-var-www/nodes.php
-'9  2  22  ~/Documents/repos/rx-monitoring-dashboard-var-www/index.php
+'0  1  0  ~/conky.desktop
+'1  1  0  ~/__Tag_List__
+'2  4  20  /etc/resolv.conf
+'3  1  0  /tmp/waldemar_rsa
+'4  1  0  ~/Documents/repos/aws-build-scripts/ubuntu-14-04/www/storeapi/storeapi.sh
+'5  25  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/js/functionHelpers.js
+'6  19  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/js/moment.js
+'7  35  70  ~/Documents/repos/rx-monitoring-dashboard-Jessie-home-folder/README.md
+'8  55  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/services.php
+'9  97  25  ~/Documents/repos/rx-monitoring-dashboard-var-www/overview.php
 
 # Jumplist (newest first):
+-'  1  0  ~/conky.desktop
+-'  1  0  ~/__Tag_List__
+-'  2  0  ~/__Tag_List__
 -'  4  20  /etc/resolv.conf
 -'  1  0  /etc/resolv.conf
 -'  1  0  /tmp/waldemar_rsa
@@ -130,12 +134,18 @@
 -'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApiAbstract.class.php
 -'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApi.class.php
 -'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApi.class.php
--'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApiAbstract.class.php
--'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApi.class.php
--'  1  0  ~/Documents/repos/rx-monitoring-dashboard/lib/php/PhpZabbixApi_Library/ZabbixApi.class.php
--'  70  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/php/PhpZabbixApi_Library/ZabbixApiAbstract.class.php
 
 # History of marks within files (newest to oldest):
+
+> ~/conky.desktop
+	"	1	0
+
+> ~/__Tag_List__
+	"	1	0
+	.	1	0
+	+	3	0
+	+	2	0
+	+	1	0
 
 > /usr/share/vim/vim74/doc/help.txt
 	"	36	0

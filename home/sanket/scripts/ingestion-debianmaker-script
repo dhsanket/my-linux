@@ -1,0 +1,24 @@
+#!/bin/bash
+set -e
+# SCRIPTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+SCRIPTDIR = /home/sanket/ingestion
+TS=$(date +"%s")
+echo "Changing directory to $SCRIPTDIR"
+cd "$SCRIPTDIR"
+echo "Creating /tmp/build-rhythmone-ingestion-$TS"
+# mkdir -p /tmp/build-rhythmone-ingestion-$TS/etc
+mkdir -p /tmp/build-rhythmone-ingestion-$TS/home/users/fnode/ingestion
+read -p "Enter version number: " PKG_VER
+cp -r * /tmp/build-rhythmone-ingestion-$TS/home/users/fnode/ingestion/
+fpm \
+	-t deb \ 
+	--verbose \
+	--provides rhythmone-fetch-ingestion \
+	--name rhythmone-fetch-ingestion \
+	--version ${PKG_VER} \
+	--iteration 1 \
+	--maintainer 'Sanket Deshpande <sdeshpande@rhythmone.com>' \
+	--url 'https://bitbucket.org/blinkxdev/ingestion' \
+	-s dir
+	--config-files home/users/fnode/ingestion/ingestapp/conf/config.conf \
+	-C /tmp/build-rhythmone-ingestion-$TS/   
