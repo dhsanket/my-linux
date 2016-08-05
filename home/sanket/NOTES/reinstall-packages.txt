@@ -1,2 +1,5 @@
 use the synaptics app, then load the "installed-packages.apt" file. then run install.
 
+OR 
+
+http://eggsonbread.com/2010/01/28/move-ubuntu-to-another-computer-in-3-simple-steps/
