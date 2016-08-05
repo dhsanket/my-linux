@@ -8,6 +8,13 @@ case $- in
       *) return;;
 esac
 
+############Custom Env Variables############
+export EDITOR="$VISUAL"
+export VISUAL=vim
+export PAGER=/usr/bin/pager	#defaults to /usr/bin/pager which links to less
+export MANPAGER="$PAGER"
+######Custom Env Variables################
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.

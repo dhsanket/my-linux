@@ -940,3 +940,24 @@ kill 17282
 screen -ls
 kill 17268
 screen -ls
+printenv | grep test
+printenv
+sudo git add -i
+sudo git commit -m "customising prompt$"
+printenv
+export test-env-var=google
+export testEnvVar=google
+printenv | grep test
+man cp
+man man
+printenv | grep pager
+PAGER=/usr/bin/more
+printenv | grep pager
+printenv | grep PAG
+MANPAGER=/usr/bin/more
+man man
+MANPAGER=/bin/more
+man man
+man scp
+ls -la /usr/bin/pager
+ls -la /etc/alternatives/pager
