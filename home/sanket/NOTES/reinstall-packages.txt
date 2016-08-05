@@ -1,0 +1,2 @@
+use the synaptics app, then load the "installed-packages.apt" file. then run install.
+

@@ -1,0 +1,15 @@
+127.0.0.1	localhost
+127.0.1.1	ubuntu1
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+127.0.0.1 ubuntu1
+
+## vagrant-hostmanager-start id: ac75329b-72ae-4777-9be6-bee7f06e86c0
+172.22.22.23	zabbix-dashboard.local
+172.22.22.23	www.zabbix-dashboard.local
+172.22.22.23	beanstalk.zabbix-dashboard.local
+## vagrant-hostmanager-end
+

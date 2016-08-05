@@ -1,0 +1,7 @@
+sanket@ubuntu1:~/.vim$ ls -a ./janus/vim/tools/
+ack/                     easymotion/              indent-object/           nerdcommenter/           syntastic/               vim-snippets/            zoomwin/
+before/                  endwise/                 janus/                   nerdtree/                tagbar/                  vim-trailing-whitespace/ 
+buffergator/             eunuch/                  kwbd/                    repeat/                  tlib/                    vimwiki/                 
+css-color/               fugitive/                matchit/                 snipmate/                unimpaired/              visualstar/              
+ctrlp/                   gist/                    multiple-cursors/        supertab/                vim-addon-mw-utils/      vroom/                   
+dispatch/                gundo/                   narrowregion/            surround/                vim-gitgutter/           webapi/              

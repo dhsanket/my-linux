@@ -498,3 +498,225 @@ clear
 quit
 logout
 exit
+printenv
+cat .bash_aliases 
+s1
+ls -a
+less .bash_profile 
+less .bashrc
+sudo nano .bash_profile 
+cat .profile
+wget http://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz
+ls
+tar -xzvf ctags-5.8.tar.gz 
+ls
+cd ctags-5.8/
+ls
+sudo apt-get install build-essential
+sudo apt-get autoremove
+./configure 
+ls
+make
+sudo make install
+history
+sudo nano ../useful-symlinks.txt 
+cd ..
+vim python-example.py 
+cd NOTES/
+ls
+sudo nano vim-python-ide
+cd ~
+sudo git add NOTES/
+git status
+sudo git add scripts/
+git status
+git status | less
+git add -i
+sudo git add -i
+cd scripts/
+cd ~
+cd NOTES/
+sudo mv vim-python-ide vim-python-ide.txt
+sudo git add -i
+sudo git commit -m "how to make a vim python IDE"
+sudo git push github master
+cd ~/.vim
+ls
+sudo git submodule add .
+sudo git submodule add ~/.vim
+ls
+git status
+sudo git add -i
+sudo git commit -m ".vim submodule initial commit"
+sudo git push github master
+cd ~
+sudo git subtree .vim/
+cd /
+sudo git subtree ~/.vim/
+cd ~
+cat .vimrc
+ls -la
+sudo git add /home/sanket/.vim/janus/vim/vimrc
+sudo git submodule deinit
+cd /
+sudo git submodule deinit .
+sudo git add /home/sanket/.vim/janus/vim/vimrc
+cd ~/.vim
+ls -a
+rm .git
+rm -r .git
+rm -r .git y
+rm -rf .git 
+sudo rm -rf .git 
+cd /
+sudo git add /home/sanket/.vim/janus/vim/vimrc
+sudo git submodule deinit .
+sudo git submodule deinit ~/.vim
+sudo git add /home/sanket/.vim/janus/vim/vimrc
+git rm --cached ~/.vim
+sudo git rm --cached ~/.vim
+sudo git add /home/sanket/.vim/janus/vim/vimrc
+ls -a /home/sanket/.vim/janus/vim/
+cd -a /home/sanket/.vim/janus/vim/
+cd /home/sanket/.vim/janus/vim/
+ls -a
+cd co
+cd colors/
+ls
+cd /
+sudo git add /home/sanket/.vim/janus/vim/colors/
+sudo git add -i
+sudo git commit -m "adding .vim files"
+sudo git push github master
+sudo git pull github master
+sudo git push github master
+cd ~/.vim
+;s
+ls
+cd bundle/
+ls
+cd ../doc
+ls
+cd ../plugin/
+ls
+cd ../janus/
+ls
+cd vim/
+ls
+ls -la ~/
+sudo git add /home/sanket/.vim/janus/vim/gvimrc
+sudo git commit -m "adding gvimrc"
+sudo git push github master
+cd ~/.vim
+ls
+sudo git add janus/vim/tools/*
+sudo git add .
+sudo git add --all :/
+git status
+git status | less
+git diff
+cd ~
+cd NOTES/
+sudo nano vim-janus-plugins.txt
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export VISUAL=nano
+printenv >~/printenv-sanket.out 
+sudo nano ~/.bashrc
+alias fhere="find . -name "
+export $work=~/GAMES
+export $work=`~/GAMES`
+export $WORK=`~/GAMES`
+export $WORK=~/GAMES/
+export $WORK=~/GAMES
+export $WORK=/home/sanket/GAMES
+export $WORK=/home/sanket
+export $WORK="/home/sanket/Documents"
+export work="/home/sanket/Documents"
+cd $work
+printenv >~/printenv-sanket.out 
+cat ~/printenv-sanket.out 
+sudo git add ~/printenv-sanket.out
+cat ~/printenv-sanket.out  | grep fher
+printenv >~/printenv-sanket.out 
+cat ~/printenv-sanket.out  | grep fher
+cd ~/
+ls
+ls -a
+less .bashrc
+sudo find / -name .bashrc -print
+less /root/.bashrc
+sudo less /root/.bashrc
+sudo nano ~/.bash_aliases
+ls
+ls -a
+touch .bash_profile
+ls -a
+sudo git add .bash_aliases .bash_profile ~/scripts/setprompt.sh
+git status
+git status | less
+sudo git add printenv-sanket.out
+sudo git add .viminfo
+git status | less
+git add -i
+sudo git commit -m "bash profile, aliases, new env variables"
+sudo git push github master
+git status
+git status | less
+git diff
+sudo git add -i
+sudo git add -a
+sudo git add home/sanket/.bash_aliases home/sanket/.bash_history home/sanket/.bash_profile home/sanket/scripts/setprompt.sh
+sudo git add /home/sanket/.bash_aliases /home/sanket/.bash_history /home/sanket/.bash_profile /home/sanket/scripts/setprompt.sh
+sudo git commit -m "bash profile, aliases, new env variables"
+sudo git push github master
+bash 
+ls
+export GREP_OPTIONS='--color=auto'
+printenv >~/printenv-sanket.out 
+cd scripts/
+sudo nano setprompt.sh
+export LESS_TERMCAP_mb=$'\E[01;31m'
+export LESS_TERMCAP_md=$'\E[01;31m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[01;44;33m'
+export LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[01;32m'
+most
+export PAGER="/usr/bin/vim"
+export MANPAGER="/usr/bin/vim"
+sudo nano .bash_profile
+cd ~
+ls -a
+export EDITOR=vim
+sudo nano setprompt.sh
+sudo nano ./scripts/setprompt.sh
+sudo nano .bash_profile
+cd ~/scripts/
+ls
+ls -a
+sudo nano .bash_profile
+cd ..
+sudo nano .bash_profile
+cd scripts/
+rm .bash_profile 
+ls -a
+cd .
+cd ..
+bash --norc
+sudo nano .bash_aliases 
+bash
+less .bashrc
+printenv > ~/printenv-sanket.out 
+sudo git add ~/printenv-sanket.out
+screen -R
+git add .profile
+sudo git add .profile
+sudo git commit -m "adding ~/.profile"
+sudo git push github master
+gnome-do
+cairo-dock
+cd ..
+ls -a
+ls -la

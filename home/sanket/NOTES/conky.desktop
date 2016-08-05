@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Conky
+Exec=conky
+Terminal=true
+Type=Application
