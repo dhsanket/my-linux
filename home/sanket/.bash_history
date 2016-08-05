@@ -720,3 +720,223 @@ cairo-dock
 cd ..
 ls -a
 ls -la
+sudo git add /etc/hosts
+sudo apt-get install Synaptic
+cd /
+ls
+cd home
+ls
+cd /
+ls 
+ls -la
+top
+sudo su -
+sudo git add ~/NOTES/installed-packages-local-universe+multiverse.sh ~/NOTES/installed-packages-all.apt 
+git status
+git status | less
+cd ~/NOTES/
+sudo git add conky.desktop printenv.out printenv-sanket.out python-example.py reinstall-packages.txt useful-symlinks.txt vim-janus-plugins.txt vim-links vim-python-ide.txt 
+sudo git add -i
+git status | less
+sudo git add vim-links
+git status | less
+
+sudo git add vim-links
+git status | less
+sudo git commit -m "re-org"
+sudo git push github master
+sudo aptitud
+sudo aptitude
+sudo git add installed-packages-all.synaptic installed-packages-local-universe+multiverse.synaptic
+git status | less
+sudo git add -i
+sudo git commit -m "re-org2"
+sudo git push github master
+sudo git add reinstall-packages.txt
+sudo git commit -m "notes update"
+sudo git push github master
+fhere install
+which fhere
+source .bashrc
+source ~/.bashrc
+fhere
+fhere install
+ls
+fhere install*
+fhere install?
+. ~/.profile
+cat ~/.profile
+cat ~/.bash_profile 
+. ~/.bash_profile 
+exit
+. /.bash_prompt
+. ~/.bash_prompt
+fhere
+screen -ls
+source ~/.bash_profile-do-not-load-first 
+source ~/.profile
+source ~/.bash_profile-do-not-load-first 
+bash screen -R
+screen -D 126
+screen -R
+ls
+ls -la
+source ~/.bash_profile-do-not-load-first 
+windowlist
+screen windowlist
+kill
+source ~/.bashrc
+source ~/.bash_prompt
+-f ~/.bash_prompt
+bash -f ~/.bash_prompt
+ls
+screen -ls
+screen -D pts-1.ubuntu1
+screen -D 13396.pts-1.ubuntu1
+screen -D 13396
+screen -D pts-1
+screen help
+man screen
+windowlist -b
+screen windowlist -b
+man screen
+screen -ls
+screen -R
+screen -ls
+screen -R
+screen -ls
+man screen
+screen -R
+screen -ls
+alias
+alias
+sudo chown sanket:sanket ~/.bash_aliases
+man alias
+alias
+alias help
+alias --help
+alias -h
+alias | xargs -n 1
+alias | xargs
+man xargs
+alias | cut -d -f1
+alias | cut -d" " -f1
+alias | cut -d" " -f2
+alias | cut -d" " -f2 | cut -d"=" -f1
+alias | cut -d" " -f2 | cut -d"=" -f1 | xargs unalias
+alias | cut -d" " -f2 | cut -d"=" -f1 | unalias
+alias | cut -d" " -f2 | cut -d"=" -f1 | xargs
+alias | cut -d" " -f2 | cut -d"=" -f1 | xargs | unalias
+alias
+unalias 
+alias | cut -d" " -f2 | cut -d"=" -f1 | xargs
+unalias alert bash egrep fgrep fhere folders grep l la ll ls s1 s2 s3 smartgit
+alias
+printenv
+alias
+printenv | grep WINDOW
+screen -ls
+PS1='\u@\h $PWD $WINDOW [$?] \$ '
+PS1='\u@\h[$PWD]$WINDOW [$?] \$ '
+PS1='\u@\h[$PWD]$WINDOW[$?]\$ '
+PS1='\u@\h$WINDOW[$?]\$ '
+PS1='\u@\h[$?]\$ '
+printenv | grep $
+ls
+printenv
+_
+$_
+$?
+$
+PS1='\u@\h$WINDOW\$ '
+PS1='\u@\h[$WINDOW]\$ '
+screen -R
+printenv | grep WINDOW
+screen -R
+alias
+alias
+cd /etc/cron.d
+alias
+alias
+source ~/.bash_prompt
+cd /etc
+cd /etc/cron.
+cd /etc/cron.d
+printenv | grep gt
+printenv | grep git
+printenv | grep branch
+alias
+/etc/profile.d
+alias
+alias
+man set
+set -o vi
+/
+set -o
+set -o
+screen -r new2
+screen -R
+screen -ls
+screen -r new2
+screen -r pts-1.ubuntu1
+screen -ls
+screen -r new2
+
+man screen
+screen -d new2
+
+screen -r new2
+screen -ls
+screen -r -s new3
+screen -R -s new3
+screen -RD -s new3
+screen -D -R -s new3
+screen -s new3
+screen -ls
+man screen
+screen -d -m -S new3
+screen -ls
+screen -r new3
+screen -ls
+screen -R
+screen -r new3
+pwd
+cd ~/NO
+cd ~/NOTES/
+pwd
+man screen
+pstree screen
+pstree
+screen -d
+screen -d 
+screen -d 17761..ubuntu1
+printenv
+screen -d
+scrren -d -m
+screen -d -m
+screen -ls
+screen -r 17761..ubuntu1
+man screen 
+screen -d 17282.new2
+screen -ls
+screen help
+man screen
+clear
+man screen
+screen -d
+screen -r 17761..ubuntu1
+screen -d 17761..ubuntu1
+screen -r 17761..ubuntu1
+screen
+screen -R -S new2
+screen -ls
+pkill 17761
+screen -ls
+pskill 17761
+kill 17761
+screen -ls
+kill 17432
+kill 17282
+screen -ls
+kill 17268
+screen -ls
