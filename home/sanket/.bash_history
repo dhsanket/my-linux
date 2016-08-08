@@ -961,3 +961,40 @@ man man
 man scp
 ls -la /usr/bin/pager
 ls -la /etc/alternatives/pager
+ls
+printenv >~/NOTES/printenv-sanket.out 
+sudo git add -i
+sudo git commit -m "customising $PAGER and $EDITOR"
+sudo git push github master
+ls -la
+cd /.git
+ls
+cd ..
+ls
+nano README.md 
+gudo nano README.md 
+set -o emacs
+sudo git add -i
+sudo git commit -m "update readme"
+sudo git add ~/.bashrc
+sudo git add ~/.bash_prompt
+sudo git commit -m "update inline command processor to emacs"
+sudo git push github master
+printenv | grep EDIT
+printenv | grep EDITOR
+printenv
+pip
+virtualenv
+sudo apt search ansible
+sudo apt-get install ansible
+screen -d
+cd scripts/
+ls
+cd ../NOTES/
+ls
+vim python-example.py 
+screen -R
+screen -ls
+kill 20751
+vim ~/NOTES/python-example.py 
+clear

@@ -8,21 +8,42 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/CoW copies. See below
+~MSle0~/delete
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-:q!
+:wq
 :Q
-:!q
+:Tlist
+:TlistUnlock
+:TlistDebug
 :TlistToggle
-:help quickref
+:TlistLock
+:TlistOpen
+:buffers
+:help windows.txt
+:help windows.text
+:window
+:edit!
+:echo Tlist_Auto_Open
+:let Tlist_Auto_Open  = 1
+:TListOpen
+:vimtutor
+:helpgrep line
+:helpgrep cut
+:helpgrep delete
 :help
+:q!
+:!q
+:help quickref
 
 # Search String History (newest to oldest):
+?/window
+?/delete
+? \<#vim\>
 ?/CoW copies. See below
 ? \Vel\%#
 
@@ -34,42 +55,249 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
+"1	CHAR	0
+	 
+	TlistToggle
+""-	CHAR	0
+	##set autoindent    " align the new line indent with the previous line
 
 # File marks:
-'0  1  0  ~/__Tag_List__
-'1  1  0  /__Tag_List__
-'2  1  0  /.git/MERGE_MSG
-'3  2  0  ~/__Tag_List__
-'4  1  0  ~/python-example.py
-'5  1  0  ~/conky.desktop
-'6  4  20  /etc/resolv.conf
-'7  1  0  /tmp/waldemar_rsa
-'8  1  0  ~/Documents/repos/aws-build-scripts/ubuntu-14-04/www/storeapi/storeapi.sh
-'9  25  0  ~/Documents/repos/rx-monitoring-dashboard-var-www/lib/js/functionHelpers.js
+'0  1  0  ~/.vim/plugin/__Tag_List__
+'1  1  0  ~/.vim/plugin/taglist.vim
+'2  1  0  ~/NOTES/python-example.py
+'3  9  4  ~/__Tag_List__
+'4  3  0  ~/__Tag_List__
+'5  5  4  ~/__Tag_List__
+'6  1  0  ~/NOTES/__Tag_List__
+'7  2  0  ~/__Tag_List__
+'8  1  0  /__Tag_List__
+'9  1  0  /.git/MERGE_MSG
 
 # Jumplist (newest first):
+-'  1  0  ~/.vim/plugin/__Tag_List__
+-'  2  0  ~/.vim/plugin/__Tag_List__
+-'  1  0  ~/NOTES/vim-links
+-'  1  0  ~/.vim/plugin/taglist.vim
+-'  1  0  ~/NOTES/python-example.py
+-'  9  4  ~/__Tag_List__
+-'  3  0  ~/__Tag_List__
+-'  2  0  ~/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vimrc.after
+-'  5  4  ~/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/.vimrc.after
+-'  4  0  ~/.vimrc.after
+-'  5  0  ~/.vimrc.after
+-'  12  0  ~/.vimrc.after
+-'  11  0  ~/.vimrc.after
+-'  10  20  ~/.vimrc.after
+-'  9  17  ~/.vimrc.after
+-'  7  78  ~/.vimrc.after
+-'  9  0  ~/NOTES/vim-python-ide.txt
+-'  8  0  ~/NOTES/vim-python-ide.txt
+-'  2  0  ~/NOTES/vim-python-ide.txt
+-'  1  0  ~/NOTES/vim-python-ide.txt
+-'  2  12  ~/.vimrc.after
+-'  19  0  ~/.vimrc.after
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
 -'  1  0  ~/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  11  0  ~/NOTES/__Tag_List__
+-'  13  0  ~/NOTES/__Tag_List__
+-'  12  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/NOTES/python-example.py
+-'  9  4  ~/__Tag_List__
+-'  3  0  ~/__Tag_List__
+-'  2  0  ~/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  1  0  ~/.vimrc.after
+-'  5  4  ~/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  3  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/NOTES/__Tag_List__
+-'  2  0  ~/NOTES/__Tag_List__
+-'  1  0  ~/.vimrc.after
+-'  4  0  ~/.vimrc.after
+-'  5  0  ~/.vimrc.after
+-'  12  0  ~/.vimrc.after
+-'  11  0  ~/.vimrc.after
+-'  10  20  ~/.vimrc.after
+-'  9  17  ~/.vimrc.after
+-'  7  78  ~/.vimrc.after
+-'  9  0  ~/NOTES/vim-python-ide.txt
+-'  8  0  ~/NOTES/vim-python-ide.txt
+-'  2  0  ~/NOTES/vim-python-ide.txt
+-'  1  0  ~/NOTES/vim-python-ide.txt
+-'  2  12  ~/.vimrc.after
+-'  19  0  ~/.vimrc.after
+-'  3  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  2  0  ~/.vim/janus/vim/colors/__Tag_List__
+-'  1  0  ~/__Tag_List__
+-'  1  0  ~/.vimrc
+-'  11  0  ~/NOTES/__Tag_List__
 
 # History of marks within files (newest to oldest):
 
-> ~/__Tag_List__
+> ~/NOTES/vim-links
+	"	3	54
+	^	3	55
+	.	3	0
+	+	4	0
+	+	3	0
+
+> ~/.vim/plugin/__Tag_List__
 	"	1	0
 	.	1	0
+	+	219	0
+	+	1	0
+
+> ~/.vim/plugin/taglist.vim
+	"	1	0
+
+> ~/NOTES/python-example.py
+	"	1	0
+
+> ~/__Tag_List__
+	"	3	0
+	.	1	0
+	+	43	0
+	+	42	0
+	+	39	0
+	+	41	0
+	+	38	0
+	+	35	0
+	+	32	0
+	+	26	0
+	+	26	0
+	+	28	0
+	+	25	0
 	+	16	0
-	+	15	0
-	+	12	0
-	+	14	0
-	+	11	0
+	+	13	0
+	+	4	0
+	+	2	0
+	+	1	0
+	a	26	0
+	b	26	0
+	e	26	0
+	i	26	0
+	m	29	0
+	o	26	0
+
+> ~/.vimrc.after
+	"	4	63
+	^	4	64
+	.	4	55
+	+	19	67
+	+	2	5
+	+	3	0
+	+	2	11
+	+	12	31
+	+	7	79
+	+	8	42
+	+	7	79
 	+	8	0
-	+	5	0
-	+	1	0
-	+	1	0
-	a	1	0
-	b	1	0
-	e	1	0
-	i	1	0
-	m	2	0
-	o	1	0
+	+	12	0
+	+	7	1
+	+	12	42
+	+	9	0
+	+	8	0
+	+	10	20
+	+	4	4
+	+	10	0
+	+	4	55
+
+> ~/NOTES/__Tag_List__
+	"	3	0
+	.	4	0
+	+	17	0
+	+	11	0
+	+	13	0
+	+	10	0
+	+	7	0
+	+	4	0
+
+> /usr/share/vim/vim74/doc/windows.txt
+	"	95	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	148	0
+
+> ~/NOTES/vim-python-ide.txt
+	"	9	0
+
+> ~/.vim/janus/vim/colors/__Tag_List__
+	"	3	0
+	.	4	0
+	+	13	0
+	+	10	0
+	+	7	0
+	+	4	0
+
+> ~/.vimrc
+	"	53	0
+	^	52	2
+	.	53	0
+	+	46	1
+	+	47	1
+	+	48	0
+	+	49	1
+	+	50	1
+	+	51	1
+	+	52	1
+	+	53	1
+	+	52	2
+	+	46	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	51	0
+	+	50	0
+	+	52	0
+	+	53	0
+
+> ~/.vim/janus/vim/langs/csv/doc/ft-csv.txt
+	"	1885	15
+
+> ~/.vim/janus/vim/core/janus/doc/janus.txt
+	"	214	0
 
 > /bin/which
 	"	46	0
@@ -90,9 +318,6 @@ $
 	+	17	0
 	+	17	5
 	+	18	3
-
-> /usr/share/vim/vim74/doc/help.txt
-	"	1	0
 
 > ~/conky.desktop
 	"	1	0
