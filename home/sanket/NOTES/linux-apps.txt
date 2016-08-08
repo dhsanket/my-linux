@@ -1,0 +1,30 @@
+[PYTHON]
+pip
+virtual env
+virtualenvwrapper
+Jupyter notebook
+
+[Ubuntu]
+vim
+Janus-vim
+screen
+vim
+
+[server-mgmt]
+vagrant
+virtualbox
+ansible
+chef/puppet
+
+[programming]
+git
+
+[tools]
+sed
+dig
+awk
+
+
+
+
+
