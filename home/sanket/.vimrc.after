@@ -1,5 +1,19 @@
 
 color desert
-TlistToggle
 filetype plugin on
+Tlist  "open left vertical window (shows python tagslist) in vim
 set omnifunc=syntaxcomplete#Complete
+
+"from Vim Python IDE http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/ 
+"let $Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+"let Tlist_Auto_Open=1
+
+
+"from Python Hitchhikers guide
+set textwidth=79  " lines longer than 79 columns will be broken
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " a hard TAB displays as 4 columns
+set expandtab     " insert spaces when hitting TABs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftwidth'
+set autoindent    " align the new line indent with the previous line
